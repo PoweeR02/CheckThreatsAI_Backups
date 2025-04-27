@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload Files</title>
+    </head>
+    <body>
+        <section class="py-0" id="uploadFiles">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Upload Your File</h2>
+                    <p class="lead mb-0">Select the file you want to upload for analysis.</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="uploadForm" enctype="multipart/form-data">
+                            <!-- Area for drop files -->
+                            <div class="drag-area" id="dragArea">
+                                <h4>Drag & Drop Your File Here</h4>
+                                <div class="pb-2">OR</div>
+                                <!-- Browse Files Button -->
+                                <button type="button" id="fileBtn" class="btn btn-secondary">Browse file</button>
+                                <input type="file" id="fileInput" accept=".exe" hidden />
+                                <!-- Counter of files -->
+                                <div id="fileInfo"></div>
+                            </div>
+                            <!-- List of files selected -->
+                            <ul id="fileList" class="list-group mt-3"></ul>
+                            <!-- Upload Files Button -->
+                            <div class="text-center mt-3">
+                                <button type="submit" class="btn btn-primary">Upload File</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

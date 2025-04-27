@@ -1,0 +1,15 @@
+/* Style when the login button is inactive (gray) */
+.btn-inactive {
+    /* Light gray text */
+    color: #adb5bd;
+    /* Light gray border */
+    border-color: #adb5bd;
+}
+
+/* Style when the login button is active (white) */
+.btn-active {
+    /* White text */
+    color: #ffffff;
+    /* White border */
+    border-color: #ffffff;
+}

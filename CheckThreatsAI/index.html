@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="CheckThreats_AI is a platform that allows users to upload and scan their files for malware quickly and securely. Protect your data with our advanced threat detection tools." />
+        <meta name="author" content="PoweeR02" />
+        <!-- Logo icon -->
+        <link rel="icon" type="image/png" href="images/logoWithoutText.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- SweetAlert2 included -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Another themes CSS added -->
+        <link href="css/login.css" rel="stylesheet" />
+        <link href="css/uploadFiles.css" rel="stylesheet" />
+        <link href="css/eyeIcon.css" rel="stylesheet" />
+        <link href="css/logoIcon.css" rel="stylesheet" />
+        <link href="css/logoutButton.css" rel="stylesheet" />
+        <link href="css/profileButton.css" rel="stylesheet" />
+        <link href="css/dropdown.css" rel="stylesheet" />
+        <link href="css/processingFiles.css" rel="stylesheet" />
+        <link href="css/resultsFiles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo with navigation -->
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logoWithText.png" class="logoIcon" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar with links to Home, About, Contact and Login Button -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Link to Home -->
+                        <li class="nav-item"><a class="nav-link" href="#home" id="nav-home">Home</a></li>
+                        <!-- Link to About -->
+                        <li class="nav-item"><a class="nav-link" href="#about" id="nav-about">About</a></li>
+                        <!-- Link to Contact -->
+                        <li class="nav-item"><a class="nav-link" href="#contact" id="nav-contact">Contact</a></li>
+                        <!-- Link to Login -->
+                        <li class="nav-item">
+                            <!-- Relative container for the Login button and Logout Dropdown -->
+                            <div style="position: relative; display: inline-block;">
+                                <!-- Login/Username Button -->
+                                <button id="loginButton" class="btn btn-outline-light ms-3">
+                                    <i class="bi bi-person-circle"></i> Login
+                                </button>
+                                <!-- Dropdown for logout (initially hidden) -->
+                                <div id="dropdown" class="logoutButton">
+                                    <button id="profileButton" class="btn btn-info ms-3">
+                                        <i class="bi bi-person"></i> Profile
+                                    </button>
+                                    <button id="logoutButton" class="btn btn-danger ms-3">
+                                        <i class="bi bi-power"></i> Logout
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Content Container -->
+        <div id="main-content" class="container mt-5">
+            <!-- Dinamic content will load here -->
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Date-fns-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/2.24.0/date-fns.min.js"></script>
+        <!-- All JS for handling page functionalities -->
+        <script src="js/main.js"></script>
+        <script src="js/review.js"></script>
+        <script src="js/navigation.js"></script>
+        <script src="js/passwordToggle.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/register.js"></script>
+        <script src="js/auth.js"></script>
+        <script src="js/accessControl.js"></script>
+        <script src="js/forgotPasswordHandler.js"></script>
+        <script src="js/verificationCodeHandler.js"></script>
+        <script src="js/resetPasswordHandler.js"></script>
+        <script src="js/userProfile.js"></script>
+        <script src="js/fileUpload.js"></script>
+        <script src="js/processingFiles.js"></script>
+        <script src="js/resultsFiles.js"></script>
+
+    </body>
+    <footer class="py-5 bg-dark">
+        <div class="container px-5"><p class="m-0 text-center text-white">&copy; CheckThreats_AI 2024</p></div>
+    </footer>
+</html>
+

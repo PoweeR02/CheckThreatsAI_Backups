@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Verify Code</title>
+    </head>
+    <body>
+        <section class="py-5">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Verify Your Code</h2>
+                    <p class="lead mb-0">Please enter the verification code sent to your email.</p>
+                    <!-- Text to show the email -->
+                    <p id="emailDisplay"></p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="verificationCodeForm">
+                            <!-- Verification Code input -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="verificationCode" type="text" placeholder="Enter your verification code..." required />
+                                <label for="verificationCode">Verification Code</label>
+                            </div>
+                            <!-- Verify Code Button -->
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" type="submit">Verify Code</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <section class="py-0">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Login</h2>
+                    <p class="lead mb-0">Please enter your credentials to login.</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="loginForm">
+                            <!-- Username input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="username" type="text" placeholder="Enter your username..." required />
+                                <label for="username">Username</label>
+                            </div>
+                            <!-- Password input with eye icon-->
+                            <div class="form-floating mb-3 position-relative">
+                                <input class="form-control" id="loginPassword" type="password" placeholder="Enter your password..." required />
+                                <label for="loginPassword">Password</label>
+                                <!-- Eye icon for showing/hiding password -->
+                                <i class="bi bi-eye-slash position-absolute eyeIcon" id="toggleLoginPassword"></i>
+                            </div>
+                            <!-- Buttons of register and forgotPassword -->
+                            <div class="d-flex justify-content-end mb-3">
+                                <button type="button" class="btn btn-link me-2" onclick="window.location.hash = '#register'">Register</button>
+                                <button type="button" class="btn btn-link me-2" onclick="window.location.hash = '#forgotPassword'">Forgot password?</button>
+                            </div>
+                            <!-- Login Button -->
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

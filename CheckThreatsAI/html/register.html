@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+    </head>
+    <body>
+        <section class="py-0">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Register</h2>
+                    <p class="lead mb-0">Create a new account by filling the information below.</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="registerForm">
+                            <!-- Email input -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="Enter your email..." required />
+                                <label for="email">Email</label>
+                            </div>
+                            <!-- Username input -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="registerUsername" type="text" placeholder="Enter your username..." required />
+                                <label for="registerUsername">Username</label>
+                            </div>
+                            <!-- Password input -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="registerPassword" type="password" placeholder="Enter your password..." required />
+                                <label for="registerPassword">Password</label>
+                                <!-- Eye icon for showing/hiding password -->
+                                <i class="bi bi-eye-slash position-absolute eyeIcon" id="toggleRegisterPassword"></i>
+                                <!-- Dinamic text with password requirements -->
+                                <p id="passwordRequirements" class="text-danger mt-2" style="font-size: 0.9em;"></p>
+                            </div>
+                            <!-- Confirm Password input -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="registerConfirmPassword" type="password" placeholder="Confirm your password..." required />
+                                <label for="registerConfirmPassword">Confirm Password</label>
+                                <!-- Eye icon for showing/hiding password -->
+                                <i class="bi bi-eye-slash position-absolute eyeIcon" id="toggleRegisterConfirmPassword"></i>
+                            </div>
+                            <!-- Register Button -->
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" type="submit">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
