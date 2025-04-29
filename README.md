@@ -4,19 +4,19 @@ Welcome to the repository of **CheckThreatsAI**, a complete platform developed a
 
 ## Contents
 
-- 🌐 **Web Platform**:  
+- **Web Platform**:  
   The interactive web application that allows users to upload and analyze executable files (.exe) in a simple and intuitive way.
 
-- 🔥 **Flask API**:  
+- **Flask API**:  
   A microservice built with Flask in Python that processes uploaded files, extracts DLL activation patterns, and applies a trained neural network model to classify the file.
 
-- 📈 **Exploratory Data Analysis (EDA)**:  
+- **Exploratory Data Analysis (EDA)**:  
   Full analysis of the selected dataset used to train the model, including data cleaning, feature selection, and balancing strategies.
 
-- 🧠 **LSTM Neural Network**:  
+- **LSTM Neural Network**:  
   The final deep learning model (Long Short-Term Memory) trained to classify Windows executable files into several categories of malware or benign files.
 
-- 🖼️ **Images for Documentation**:  
+- **Images for Documentation**:  
   A collection of diagrams, charts, and screenshots used to illustrate the technical report and support the documentation.
 
 ## About the Project
